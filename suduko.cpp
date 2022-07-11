@@ -144,11 +144,11 @@ int main()
 {
 	// 0 means unassigned cells
 	int grid[N][N] ;
-  for(int i=0;i<N;i++)
+  for(int row=0;row<N;row++)
   {
-    for(int j=0;j<N;j++)
+    for(int col=0;col<N;col++)
     {
-     cin>>grid[i][j]; 
+     cin>>grid[row][col]; 
     } 
   } 
 	if (SolveSudoku(grid) == true)
